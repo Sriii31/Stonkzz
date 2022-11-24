@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+   
+function add (a, b) {  
+  return a + b  
+}  
+addReference=add
+function higherOrder(a, addReference) {  
+  return addReference(a, 20)  
+}  
+//Function call  
+a=higherOrder(20,add);
+
+
+    alert(a);
+    </script>
+</head>
+<title> HOC</title>
+<body >
+    HOC testing......
+    
+
+   
+</body >
+
+</html>
+
+
+
+
+
